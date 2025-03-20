@@ -8,13 +8,13 @@ export interface Tool {
 const tools: Tool[] = [
   {
     name: "Age Calculator",
-    path: "/tools/age-calculator", // ✅ Include `/tools/` in the path
+    path: "/tools/age-calculator",
     description: "Calculate age from birth date",
     icon: "🕒",
   },
   {
     name: "Fake Data Generator",
-    path: "/tools/fake-data-generator", // ✅ Include `/tools/`
+    path: "/tools/fake-data-generator",
     description: "Generate fake test data",
     icon: "📊",
   },
