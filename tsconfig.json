@@ -1,24 +1,14 @@
-{
-  "compilerOptions": {
-    "target": "es5",
-    "lib": ["dom", "dom.iterable", "esnext"],
-    "allowJs": true,
-    "skipLibCheck": true,
-    "strict": true,
-    "forceConsistentCasingInFileNames": true,
-    "noEmit": true,
-    "esModuleInterop": true,
-    "module": "esnext",
-    "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "jsx": "preserve",
-    "incremental": true,
-    "baseUrl": ".",
-    "paths": {
-      "@/*": ["./*"]
-    }
+const tools: Tool[] = [
+  {
+    name: "Age Calculator",
+    path: "/tools/age-calculator", // ✅ Include `/tools/`
+    description: "Calculate age from birth date",
+    icon: "🕒",
   },
-  "include": ["**/*.ts", "**/*.tsx"],
-  "exclude": ["node_modules"]
-}
+  {
+    name: "Fake Data Generator",
+    path: "/tools/fake-data-generator", // ✅ Include `/tools/`
+    description: "Generate fake test data",
+    icon: "📊",
+  },
+];
