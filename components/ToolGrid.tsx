@@ -11,11 +11,7 @@ export default function ToolGrid({ tools }: { tools: Tool[] }) {
           <Card>
             <CardContent>
               <Typography variant="h6" gutterBottom>
-                <Link
-                  component={NextLink}
-                  href={tool.path}
-                  color="primary"
-                >
+                <Link component={NextLink} href={tool.path} color="primary">
                   {tool.name}
                 </Link>
               </Typography>
